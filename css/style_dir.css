@@ -1,0 +1,91 @@
+body{
+    background-color: #eed6ce;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #2a5055;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+#name{
+    display: flex;
+    align-items: center;
+    color: #fddd97;
+    font-size: 30px;
+}
+
+nav ul{
+display: flex;
+
+justify-content: space-around;
+list-style-type: none;
+}
+
+li a{
+    color: #eed6ce;
+    margin: 30px;
+    text-decoration: none;
+}
+.logo{
+    height: 30px;
+}
+
+/* main page */
+#asidemain{
+    display: flex;
+    min-height: 100vh;
+}
+
+aside{
+
+    background-color: #2a5055;
+    float: left;
+    height: 150vh;
+    width: 200px;
+    padding-left: 5px;
+    color: #eed6ce;
+    position: sticky;
+
+}
+
+/* main page */
+#main{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flowerid{
+    background-color: rgba(255, 255, 255, 0.521);
+    height: 200px;
+    width: 150vh;
+    color: #2a5055;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 30px;
+
+}
+.dir_img{
+    height: 100%;
+    float: right;
+    border-radius: 5px;
+}
+.textContent{
+    float: left;
+    font-size: larger;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 5px;
+}

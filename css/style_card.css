@@ -1,0 +1,54 @@
+
+#title img{
+    height: 45px;
+}
+h1{
+    color: #2a5055;
+}
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#data{
+    background-color: rgba(255, 255, 255, 0.521);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #2a5055;
+    font-size: larger;
+}
+
+#iconData{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+#fullCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#theflowerimg
+{
+width: 60vh;
+height: 80vh;
+border: 5px;
+background-color: #eaa4a9;
+padding: 5px;
+border-radius: 5px;
+margin: 10px;
+}
+

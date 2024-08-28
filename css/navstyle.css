@@ -1,0 +1,35 @@
+body{
+    background-color: #eed6ce;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #2a5055;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+#name a{
+    display: flex;
+    align-items: center;
+    color: #fddd97;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav ul{
+display: flex;
+
+justify-content: space-around;
+list-style-type: none;
+}
+li a{
+    color: #eed6ce;
+    margin: 30px;
+    text-decoration: none;
+}
+.logo{
+    height: 30px;
+    margin: 3px;
+}

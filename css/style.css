@@ -1,0 +1,66 @@
+body{
+    background-color: #eed6ce;
+}
+
+nav{
+    background-color: #2a5055;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+#name{
+    display: flex;
+    align-items: center;
+    color: #fddd97;
+    font-size: 30px;
+}
+
+nav ul{
+display: flex;
+
+justify-content: space-around;
+list-style-type: none;
+}
+
+li a{
+    color: #eed6ce;
+    margin: 30px;
+    text-decoration: none;
+}
+.logo{
+    height: 30px;
+}
+
+
+/*main space*/
+
+#welcomeTitle .logo{
+    height: 45px;
+}
+
+#welcomeTitle{
+    display: flex;
+    align-items: center; 
+    color: #2a5055;
+}
+
+#welcomeimg{
+width: 400px;
+border: 5px solid #eaa9a4;
+
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    padding: 20px;
+}
+#textpart{
+    color: #2a5055;
+    font-size:30px;
+}
+
+
+
+
